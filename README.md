@@ -16,3 +16,7 @@ The game involves rolling 10 dice. The player's goal is to achieve the same resu
     Object <Confetti/>
     LocalStorage
     UseEffect
+
+## Live Preview
+
+![Start game](./public/images/look-page.png)
