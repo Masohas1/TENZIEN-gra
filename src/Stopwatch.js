@@ -92,10 +92,10 @@ const Stopwatch = ({ stopStoper }) => {
   };
 
   return (
-    <>
+    <div className="stopwatch">
       <h2 className="real-time">Time: {formatTime(time)}</h2>
       <h2>Your record: {formatTime(timeStorage)}</h2>
-    </>
+    </div>
   );
 };
 

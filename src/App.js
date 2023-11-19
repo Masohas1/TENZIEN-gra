@@ -82,13 +82,15 @@ export default function App() {
     <div>
       {/* If we finish the game, confetti will appear */}
       {tenzies && <Confetti />}
+      <div className="click-roll">
+        <h2>Roll: {countRoll}</h2>
+      </div>
+
+      <Stopwatch stopStoper={tenzies} />
 
       <main>
         <h1 className="title">Tenzies</h1>
-        <h2>Click "Roll": {countRoll}</h2>
-        <div>
-          <Stopwatch stopStoper={tenzies} />
-        </div>
+
         <p className="instructions">
           Roll until all dice are the same. Click each die to freeze it at its
           current value between rolls.
