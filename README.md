@@ -4,9 +4,12 @@
 
 The game involves rolling 10 dice. The player's goal is to achieve the same result on each die as quickly as possible. Players can choose to hold dice after each roll. At the end of the round, the best time is recorded, and confetti appears.
 
-## Available Scripts
+## Technologies Used 💻
 
-In the project directory, you can run:
+    -JavaScript
+    -CSS
+    -HTML
+    -React
 
 ### `npm start`
 
